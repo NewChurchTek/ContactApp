@@ -1,0 +1,80 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="row">
+    <div class="col-md-12">
+
+            <div id="contact-list" style="display: none">
+                <h2>Messages</h2>
+                <div id="contact-list-container"></div>
+                <script type="text/x-handlebars-template" id="list-template">
+                    <table class="table">
+                        <tr>
+                            <th>ID</th>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Email</th>
+                            <th>Phone</th>
+                            <th>Message</th>
+                            <td></td>
+                        </tr>
+                        {{#each items}}
+                        <tr>
+                            <td>{{ID}}</td>
+                            <td {{#if Archived}}class='crossout'{{/if}}>{{FirstName}}</td>
+                            <td {{#if Archived}}class='crossout'{{/if}}>{{LastName}}</td>
+                            <td>{{Email}}</td>
+                            <td>{{Phone}}</td>
+                            <td>{{Message}}</td>
+                            <td>
+                                <button class='btn btn-sm btn-delete' data-id='{{ID}}'>Delete</button>
+                                <button class='btn btn-sm btn-archive' data-id='{{ID}}'>Archive</button>
+                            </td>
+                        </tr>
+                        {{/each}}
+                    </table>
+                </script>
+            </div>
+
+            <form id="contact-form">
+
+                <h2>Contact</h2>
+
+                <div class="messages"></div>
+
+                <div class="controls">
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label for="form_name">Firstname *</label>
+                            <input id="form_name" type="text" name="firstname" class="form-control" placeholder="Please enter your firstname *" required="required">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="form_lastname">Lastname *</label>
+                            <input id="form_lastname" type="text" name="lastname" class="form-control" placeholder="Please enter your lastname *" required="required">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="form_email">Email *</label>
+                            <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="form_phone">Phone</label>
+                            <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="form_message">Message *</label>
+                            <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input type="button" id="btn-send" class="btn btn-success" value="Send message">
+                        </div>
+                    </div>
+
+                </div>
+
+            </form>
+    </div>
+</div>
