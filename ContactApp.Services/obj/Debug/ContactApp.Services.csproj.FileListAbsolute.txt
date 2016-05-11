@@ -1,0 +1,10 @@
+C:\Dev\RotaGeek\ContactApp.Services\bin\Debug\ContactApp.Services.dll.config
+C:\Dev\RotaGeek\ContactApp.Services\bin\Debug\ContactApp.Services.dll
+C:\Dev\RotaGeek\ContactApp.Services\bin\Debug\ContactApp.Services.pdb
+C:\Dev\RotaGeek\ContactApp.Services\bin\Debug\EntityFramework.dll
+C:\Dev\RotaGeek\ContactApp.Services\bin\Debug\EntityFramework.SqlServer.dll
+C:\Dev\RotaGeek\ContactApp.Services\bin\Debug\EntityFramework.xml
+C:\Dev\RotaGeek\ContactApp.Services\bin\Debug\EntityFramework.SqlServer.xml
+C:\Dev\RotaGeek\ContactApp.Services\obj\Debug\ContactApp.Services.csprojResolveAssemblyReference.cache
+C:\Dev\RotaGeek\ContactApp.Services\obj\Debug\ContactApp.Services.dll
+C:\Dev\RotaGeek\ContactApp.Services\obj\Debug\ContactApp.Services.pdb

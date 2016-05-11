@@ -1,0 +1,9 @@
+C:\Dev\RotaGeek\ContactApp.Db\bin\Debug\ContactApp.Db.dacpac
+C:\Dev\RotaGeek\ContactApp.Db\bin\Debug\ContactApp.Db.dll
+C:\Dev\RotaGeek\ContactApp.Db\bin\Debug\ContactApp.Db.pdb
+C:\Dev\RotaGeek\ContactApp.Db\obj\Debug\Model.xml
+C:\Dev\RotaGeek\ContactApp.Db\obj\Debug\refactor.xml
+C:\Dev\RotaGeek\ContactApp.Db\obj\Debug\postdeploy.sql
+C:\Dev\RotaGeek\ContactApp.Db\obj\Debug\predeploy.sql
+C:\Dev\RotaGeek\ContactApp.Db\obj\Debug\ContactApp.Db.dll
+C:\Dev\RotaGeek\ContactApp.Db\obj\Debug\ContactApp.Db.pdb

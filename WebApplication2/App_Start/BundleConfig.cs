@@ -23,7 +23,7 @@ namespace ContactApp
                       "~/Scripts/App/*.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
-                      "~/Scripts/handlebars-v3.0.0.js",
+                      "~/Scripts/handlebars-v4.0.5.js",
                       "~/Scripts/bootstrap.js",
                       "~/Scripts/respond.js"));
 

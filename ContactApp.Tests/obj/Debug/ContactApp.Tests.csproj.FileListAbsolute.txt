@@ -1,0 +1,14 @@
+C:\Dev\RotaGeek\ContactApp.Tests\bin\Debug\ContactApp.Tests.dll.config
+C:\Dev\RotaGeek\ContactApp.Tests\bin\Debug\ContactApp.Tests.dll
+C:\Dev\RotaGeek\ContactApp.Tests\bin\Debug\ContactApp.Tests.pdb
+C:\Dev\RotaGeek\ContactApp.Tests\bin\Debug\ContactApp.Services.dll
+C:\Dev\RotaGeek\ContactApp.Tests\bin\Debug\EntityFramework.dll
+C:\Dev\RotaGeek\ContactApp.Tests\bin\Debug\EntityFramework.SqlServer.dll
+C:\Dev\RotaGeek\ContactApp.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Dev\RotaGeek\ContactApp.Tests\bin\Debug\ContactApp.Services.pdb
+C:\Dev\RotaGeek\ContactApp.Tests\bin\Debug\EntityFramework.xml
+C:\Dev\RotaGeek\ContactApp.Tests\bin\Debug\EntityFramework.SqlServer.xml
+C:\Dev\RotaGeek\ContactApp.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Dev\RotaGeek\ContactApp.Tests\obj\Debug\ContactApp.Tests.csprojResolveAssemblyReference.cache
+C:\Dev\RotaGeek\ContactApp.Tests\obj\Debug\ContactApp.Tests.dll
+C:\Dev\RotaGeek\ContactApp.Tests\obj\Debug\ContactApp.Tests.pdb
