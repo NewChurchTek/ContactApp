@@ -24,9 +24,9 @@
                             <td>{{ID}}</td>
                             <td {{#if Archived}}class='crossout'{{/if}}>{{FirstName}}</td>
                             <td {{#if Archived}}class='crossout'{{/if}}>{{LastName}}</td>
-                            <td>{{Email}}</td>
-                            <td>{{Phone}}</td>
-                            <td>{{Message}}</td>
+                            <td {{#if Archived}}class='crossout'{{/if}}>{{Email}}</td>
+                            <td {{#if Archived}}class='crossout'{{/if}}>{{Phone}}</td>
+                            <td {{#if Archived}}class='crossout'{{/if}}>{{Message}}</td>
                             <td>
                                 <button class='btn btn-sm btn-delete' data-id='{{ID}}'>Delete</button>
                                 <button class='btn btn-sm btn-archive' data-id='{{ID}}'>Archive</button>
